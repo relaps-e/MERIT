@@ -1,0 +1,21 @@
+{
+  "input": "../../data/actual_lp.npz",
+  "entry": "Computers",
+  "seeds": [111, 2474, 7988],
+  "mask": [
+    86, 90, 92, 123, 183, 194, 212, 216, 218, 312, 319, 320, 325, 375, 427, 429,
+    446, 447, 451, 501, 673, 679, 681, 685, 687, 824, 825, 879, 942, 1005, 1081, 1131
+  ],
+  "model": {
+    "hid_dim": 64,
+    "n_layers": 3,
+    "k_nn": 1,
+    "k_similar_tasks": 6,
+    "k_similar_models": 30,
+    "edge_weight_alpha": 2.0,
+    "epochs": 300,
+    "patience": 30
+  },
+  "feature_k": 20,
+  "tie_break": "first"
+}

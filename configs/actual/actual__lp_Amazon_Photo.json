@@ -1,0 +1,21 @@
+{
+  "input": "../../data/actual_lp.npz",
+  "entry": "Photo",
+  "seeds": [111, 240, 4523],
+  "mask": [
+    24, 82, 169, 172, 184, 370, 372, 375, 427, 429, 446, 503, 509, 540, 549, 554,
+    559, 561, 562, 685, 687, 742, 799, 805, 807, 852, 860, 874, 876, 937, 939, 1018
+  ],
+  "model": {
+    "hid_dim": 64,
+    "n_layers": 3,
+    "k_nn": 1,
+    "k_similar_tasks": 20,
+    "k_similar_models": 30,
+    "edge_weight_alpha": 2.0,
+    "epochs": 300,
+    "patience": 30
+  },
+  "prediction_k": 3,
+  "tie_break": "first"
+}

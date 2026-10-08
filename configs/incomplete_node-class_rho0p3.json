@@ -1,0 +1,18 @@
+{
+  "input": "../data/graph_nc.npz",
+  "entry": "incomplete_0.3",
+  "seeds": [33, 111, 1337],
+  "mask": [
+    5, 17, 60, 139, 196, 199, 201, 321, 370, 372, 538, 539, 615, 769, 864, 997,
+    999
+  ],
+  "model": {
+    "hid_dim": 64,
+    "n_layers": 3,
+    "n_heads": 8,
+    "k_nn": 3,
+    "edge_weight_alpha": 2.0,
+    "lr": 0.0003
+  },
+  "erl": {}
+}

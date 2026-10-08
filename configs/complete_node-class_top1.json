@@ -1,0 +1,16 @@
+{
+  "input": "../data/graph_nc.npz",
+  "entry": "complete",
+  "seeds": [33, 111, 1337],
+  "mask": [
+    5, 141, 142, 143, 144, 187, 200, 294, 297, 537, 569, 609, 706, 769, 773, 1010
+  ],
+  "model": {
+    "hid_dim": 64,
+    "n_heads": 8,
+    "k_nn": 3,
+    "k_similar_tasks": 1,
+    "edge_weight_alpha": 0.75,
+    "patience": 30
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "input": "../data/graph_nc.npz",
+  "entry": "cross-domain",
+  "seeds": [33, 111, 1337],
+  "mask": [
+    137, 152, 155, 174, 214, 305, 419, 488, 579, 695, 786, 788, 884, 940, 967, 1010
+  ],
+  "model": {
+    "hid_dim": 8,
+    "n_layers": 3,
+    "n_heads": 2,
+    "k_nn": 1,
+    "k_similar_tasks": 1,
+    "edge_weight_alpha": 1.25,
+    "epochs": 300,
+    "lr": 0.005,
+    "patience": 30
+  },
+  "eil": {}
+}

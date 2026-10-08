@@ -1,0 +1,19 @@
+{
+  "input": "../../data/actual_lp.npz",
+  "entry": "CiteSeer",
+  "seeds": [9946, 5502, 111],
+  "mask": [
+    4, 84, 86, 123, 201, 218, 244, 312, 451, 486, 528, 564, 627, 685, 829, 937
+  ],
+  "model": {
+    "hid_dim": 64,
+    "n_layers": 1,
+    "k_nn": 1,
+    "k_similar_tasks": 3,
+    "k_similar_models": 5,
+    "edge_weight_alpha": 8.0,
+    "lr": 0.005,
+    "epochs": 300,
+    "patience": 30
+  }
+}

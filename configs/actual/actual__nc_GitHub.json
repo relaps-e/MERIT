@@ -1,0 +1,20 @@
+{
+  "input": "../../data/actual_nc.npz",
+  "entry": "GitHub",
+  "seeds": [111, 788, 6478],
+  "mask": [
+    9, 121, 132, 145, 146, 149, 167, 170, 181, 183, 184, 241, 243, 433, 435, 531,
+    704, 720, 722, 783, 864, 889, 962, 988, 1022, 1057, 1085, 1114, 1116, 1120, 1126, 1128
+  ],
+  "model": {
+    "n_layers": 3,
+    "n_heads": 8,
+    "k_nn": 1,
+    "k_similar_models": 30,
+    "edge_weight_alpha": 1.0,
+    "lr": 0.0003
+  },
+  "feature_k": 10,
+  "prediction_k": 5,
+  "tie_break": "first"
+}
